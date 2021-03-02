@@ -1,0 +1,24 @@
+.our-gallery {
+  margin-top: 100px;
+  background: url(../images/background/our_gallery_background.png) no-repeat;
+  background-size: cover;
+
+  .our-gallery-title {
+    h1 {
+      font-weight: 500;
+      font-size: 40px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+
+  .item {
+    transition: 0.5s ease-in-out;
+  }
+  .item:hover {
+    filter: brightness(60%);
+  }
+}

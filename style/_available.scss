@@ -1,0 +1,54 @@
+.available-on {
+  margin-top: 150px;
+
+  .available-on-title {
+    padding-top: 20px;
+    h1 {
+      font-weight: 500;
+      font-size: 40px;
+    }
+    p {
+      padding-top: 10px;
+      font-weight: 400;
+      color: #7b7b7b;
+      font-size: 20px;
+    }
+  }
+
+  .available-on-link {
+    .link-item {
+      margin-right: 30px;
+      text-decoration: none;
+    }
+
+    .tokopedia {
+      font-weight: 600;
+      font-size: 20px;
+      color: #27b26f;
+
+      &:hover {
+        color: #1f905a;
+      }
+    }
+
+    .shopee {
+      font-weight: 600;
+      font-size: 20px;
+      color: #ee4d2d;
+
+      &:hover {
+        color: #d24327;
+      }
+    }
+
+    .maps {
+      font-weight: 600;
+      font-size: 20px;
+      color: #4086f4;
+
+      &:hover {
+        color: #3472ce;
+      }
+    }
+  }
+}

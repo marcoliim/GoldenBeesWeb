@@ -1,0 +1,36 @@
+.about-us-area {
+  margin-top: 50px;
+  background: url(../images/background/about_us_background.png) no-repeat;
+  background-size: cover;
+
+  .about-us-title {
+    h1 {
+      font-weight: 500;
+      font-size: 40px;
+    }
+  }
+
+  .our-company {
+    padding-top: 70px;
+  }
+
+  .our-products {
+    padding-top: 90px;
+  }
+
+  .certification {
+    padding-top: 50px;
+  }
+
+  .about-title {
+    h2 {
+      color: #be9a30;
+      font-size: 30px;
+      font-weight: 400;
+    }
+    p {
+      font-weight: 300;
+      font-size: 18px;
+    }
+  }
+}

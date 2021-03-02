@@ -1,0 +1,85 @@
+.testimonial {
+  margin-top: 100px;
+
+  .testimonial-header {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .single-box-tokopedia {
+    @media screen and (max-width: 339px) {
+      margin-top: 20px;
+    }
+    position: relative;
+    display: block;
+    background: rgb(39, 178, 111);
+    background: linear-gradient(
+      to right bottom,
+      rgba(39, 178, 111, 1) 0%,
+      rgba(89, 195, 106, 1) 100%
+    );
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+  }
+  .single-box-shopee {
+    @media screen and (max-width: 339px) {
+      margin-top: 20px;
+    }
+    position: relative;
+    display: block;
+    background: rgb(240, 56, 0);
+    background: linear-gradient(
+      to right bottom,
+      rgba(240, 56, 0, 1) 0%,
+      rgba(240, 75, 42, 1) 100%
+    );
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+  }
+
+  span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 15px;
+  }
+
+  .img-area {
+    overflow: hidden;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+
+  .text-area {
+    text-align: center;
+    h2 {
+      font-weight: 400;
+      font-size: 30px;
+      color: #fff;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+    }
+  }
+
+  .carousel-indicators {
+    bottom: -70px;
+
+    li {
+      background-color: #b2b2b2;
+      border-radius: 50%;
+      height: 12px;
+      width: 12px;
+    }
+
+    .active {
+      background-color: #be9a30;
+    }
+  }
+}

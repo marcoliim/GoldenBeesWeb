@@ -1,0 +1,42 @@
+.our-products {
+  margin-top: 70px;
+  background: url(../images/background/our_product_background.png) no-repeat;
+  background-size: cover;
+  .our-products-title {
+    h2 {
+      font-weight: 500;
+      font-size: 40px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+
+  .component-products {
+    .products-thumbnail {
+      .products-image {
+        padding-bottom: 30px;
+      }
+    }
+
+    .products-title {
+      font-weight: 500;
+      font-size: 30px;
+    }
+
+    .products-price {
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 25px;
+      color: #be9a30;
+    }
+
+    .products-text {
+      margin-top: 20px;
+      font-weight: 300;
+      font-size: 12;
+    }
+  }
+}
