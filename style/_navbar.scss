@@ -1,6 +1,13 @@
 .navbar-golden-bees {
   padding-top: 15px;
 
+  .navbar-brand {
+    img {
+      width: 75px;
+      height: 75px;
+    }
+  }
+
   .nav-item {
     .nav-link {
       @include media-breakpoint-up(lg) {

@@ -10839,6 +10839,11 @@ body ul {
   padding-top: 15px;
 }
 
+.navbar-golden-bees .navbar-brand img {
+  width: 75px;
+  height: 75px;
+}
+
 .navbar-golden-bees .nav-item .nav-link {
   color: #fff;
 }
@@ -11028,93 +11033,99 @@ body ul {
           filter: brightness(60%);
 }
 
-.testimonial {
-  margin-top: 100px;
-}
-
-.testimonial .testimonial-header {
-  font-weight: 600;
+.testimonial .testimonial-title h1 {
   font-size: 40px;
-  margin-bottom: 30px;
+  font-weight: 500;
 }
 
-.testimonial .single-box-tokopedia {
-  position: relative;
-  display: block;
+.testimonial .testimonial-title p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.testimonial .tokopedia {
   background: #27b26f;
   background: -webkit-gradient(linear, left top, right bottom, from(#27b26f), to(#59c36a));
   background: linear-gradient(to right bottom, #27b26f 0%, #59c36a 100%);
-  border-radius: 10px;
-  width: 100%;
-  height: 350px;
 }
 
-@media screen and (max-width: 339px) {
-  .testimonial .single-box-tokopedia {
-    margin-top: 20px;
-  }
-}
-
-.testimonial .single-box-shopee {
-  position: relative;
-  display: block;
+.testimonial .shopee {
   background: #f03800;
   background: -webkit-gradient(linear, left top, right bottom, from(#f03800), to(#f04b2a));
   background: linear-gradient(to right bottom, #f03800 0%, #f04b2a 100%);
+}
+
+.testimonial .client {
+  -webkit-box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+          box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  margin: 48px 0;
   border-radius: 10px;
-  width: 100%;
-  height: 350px;
 }
 
-@media screen and (max-width: 339px) {
-  .testimonial .single-box-shopee {
-    margin-top: 20px;
-  }
+.testimonial .client .client-img {
+  padding: 32px;
+  width: auto;
+  height: auto;
 }
 
-.testimonial span {
-  font-size: 15px;
-  font-weight: 600;
+.testimonial .client .about-client {
+  padding-top: 32px;
+}
+
+.testimonial .client .about-client h4 {
   color: #fff;
-  padding-left: 15px;
-}
-
-.testimonial .img-area {
-  overflow: hidden;
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 15px;
-}
-
-.testimonial .text-area {
-  text-align: center;
-}
-
-.testimonial .text-area h2 {
   font-weight: 400;
+  font-size: 21px;
+}
+
+.testimonial .client .about-client p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.testimonial .owl-carousel .owl-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 24px;
+}
+
+.order {
+  margin-top: 70px;
+}
+
+.order .order-title h2 {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.order .order-title p {
+  font-size: 24px;
+}
+
+.order .paragraph h5 {
+  font-weight: 500;
   font-size: 30px;
-  color: #fff;
+  margin-bottom: 30px;
 }
 
-.testimonial .text-area p {
-  font-size: 16px;
-  font-weight: 300;
-  color: #fff;
-}
-
-.testimonial .carousel-indicators {
-  bottom: -70px;
-}
-
-.testimonial .carousel-indicators li {
-  background-color: #b2b2b2;
-  border-radius: 50%;
-  height: 12px;
-  width: 12px;
-}
-
-.testimonial .carousel-indicators .active {
+.order .button .btn {
   background-color: #be9a30;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 17px 34px;
+  border-radius: 10px;
+  margin-left: 130px;
+}
+
+.order .button .btn:hover {
+  background-color: #efc138;
+  border-color: #efc138;
+  -webkit-transition: background 0.6s ease;
+  transition: background 0.6s ease;
 }
 
 .footer {
